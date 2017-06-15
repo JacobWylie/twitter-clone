@@ -1,0 +1,196 @@
+body {
+	font-family: 'Helvetica Neue';
+	margin: 0;
+	background: url(img/background.png) no-repeat center center fixed;
+	background-size: cover;
+
+}
+
+.container {
+	width: 40%;
+	min-width: 500px;
+	margin: 0 auto;
+	border: 1px solid #657786;
+	border-radius: 5px;
+	padding: 30px;
+	margin-top: 50px;
+	background-color: white
+}
+
+hr {
+	background-color: #657786;
+}
+
+.black-font {
+	color: #14171a;
+}
+
+.blue-font {
+	color: #0099b9;
+}
+
+.grey-font {
+	color: #657786;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.profileImage img {
+	float: left;
+	width: 50px;
+	border-radius: 5px;
+}
+
+.tweeter {
+	margin-top: -15px;
+	margin-left: 10px;
+}
+
+.name {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.handle {
+	margin-top: -15px;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+.fa-check-circle-o {
+	margin-left: 5px;
+}
+
+.follow {
+	float: right;
+}
+
+.followButton {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 20px;
+	padding: 8px 16px;
+	border: 1px solid #1da1f2;
+	border-radius: 5px;
+	background-color: white;
+	margin-right: 5px;
+	outline: none;
+}
+
+.followButton:hover {
+	background-color: rgba(0,153,185,.15);
+	cursor: pointer;
+}
+
+.fa-user-plus {
+	margin-right: 5px; 
+}
+
+.fa-angle-down {
+	font-size: 20px;
+	font-weight: bold;
+	opacity: .60;
+}
+
+.tweet {
+	margin-top: -20px;
+	font-size: 24px;
+	line-height: 32px;
+	letter-spacing: .01em;
+	font-weight: 300;
+	margin-bottom: -10px;
+}
+
+.social {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.border {
+	border-top: 1px solid rgba(101,119,134,0.2);
+	border-bottom: 1px solid rgba(101,119,134,0.2);
+}
+
+.retweets {
+	padding-left: 0px;
+	font-weight: normal;
+	font-size: 12px;
+	margin-right: 8px;
+}
+
+.retweetNum {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 0px;
+	margin-top: -1px;
+}
+
+.likes {
+	border-right: 1px solid rgba(101,119,134,0.2);
+	font-weight: normal;
+	font-size: 12px; 
+	padding-right: 20px;
+}
+
+.likeNum {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 0px;
+	margin-top: -1px;
+}
+
+.followers {
+	margin-left: 6px;
+}
+
+.followers img {
+	width: 30px;
+	border-radius: 5px;
+	margin-right: 2px;
+}
+
+.time {
+	font-size: 14px;
+}
+
+.fame {
+	font-size: 14px;
+	font-weight: bold;
+	opacity: .70;
+}
+.fame i {
+	margin-right: 4px;
+}
+
+.fame p {
+	margin-right: 10px;
+}
+
+.dashboard {
+	width: 25%;
+	margin: 50px auto;
+
+}
+
+.dashboard button {
+	display: block;
+	background-color: white;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
