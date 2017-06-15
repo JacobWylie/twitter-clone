@@ -168,10 +168,29 @@ hr {
 	margin-right: 10px;
 }
 
+.reply:hover {
+	color: #0099b9;
+	cursor: pointer;
+}
+
+.retweetIcon:hover {
+	color: #4caf50;
+	cursor: pointer;
+}
+
+.heart:hover {
+	color: #e91e63;
+	cursor: pointer;
+}
+
 .dashboard {
 	width: 250px;
 	margin: 50px auto;
+}
 
+.dashboard textarea {
+	border-radius: 5px;
+	font-size: 14px;
 }
 
 .dashboard button {
@@ -180,6 +199,8 @@ hr {
 	border: none;
 	outline: none;
 	cursor: pointer;
+	border-radius: 2px;
+	font-size: 14px;
 }
 
 
