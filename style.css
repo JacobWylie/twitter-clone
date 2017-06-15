@@ -191,6 +191,9 @@ hr {
 .dashboard textarea {
 	border-radius: 5px;
 	font-size: 14px;
+	outline: none;
+	border: 1px solid #657786;
+
 }
 
 .dashboard button {
