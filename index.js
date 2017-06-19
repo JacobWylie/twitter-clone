@@ -1,3 +1,4 @@
+const container = document.querySelector('.container');
 const profileImage = document.querySelector('.profileImage img');
 const name = document.querySelector('.name');
 const handle = document.querySelector('.handle');
@@ -44,7 +45,6 @@ function generateTweet () {
 	populateTweetText();
 	populateProfile();
 	populateFollowers();
-
 	// cleares submitTweet textarea
 	newTweet.value = '';
 	// cycles through tweeters[]
@@ -55,7 +55,9 @@ function generateTweet () {
 	}
 }
 
-submitTweet.addEventListener('click', generateTweet); 
+submitTweet.addEventListener('click', () => {
+	generateTweet();
+}); 
 
 
 

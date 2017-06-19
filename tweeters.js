@@ -1,6 +1,6 @@
 function createFollowers () {
 	let randomFollowers = [];
-	for (i = 0; i < 9; i++) {
+	for (i = 0; i < 8; i++) {
 		let item = followers[Math.floor(Math.random() * followers.length)];
 		randomFollowers.push(item);
 	}
