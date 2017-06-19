@@ -14,7 +14,7 @@ body {
 	border-radius: 5px;
 	padding: 30px;
 	margin-top: 50px;
-	background-color: white
+	background-color: white;
 }
 
 hr {
@@ -148,7 +148,10 @@ hr {
 .followers img {
 	width: 30px;
 	border-radius: 5px;
-	margin-right: 2px;
+}
+
+.followerImages {
+	margin-right: 5px;
 }
 
 .time {
@@ -184,13 +187,16 @@ hr {
 }
 
 .dashboard {
-	width: 250px;
+	width: 300px;
 	margin: 50px auto;
 }
 
 .dashboard textarea {
 	border-radius: 5px;
 	font-size: 14px;
+	outline: none;
+	border: 1px solid #657786;
+	padding: 15px;
 }
 
 .dashboard button {
